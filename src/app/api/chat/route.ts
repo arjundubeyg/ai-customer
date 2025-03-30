@@ -16,7 +16,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         model: "Meta-Llama-3-8B-Instruct",
         messages: [
-          { role: "system", content: "You are helpful assistant to lame or mute people and have great knowledge in hand sign language" },
+          { role: "system", content: "You are helpful assistant to aphonia or mutism people and have great knowledge in hand sign language" },
           { role: "user", content: message }
         ],
         stream: true
